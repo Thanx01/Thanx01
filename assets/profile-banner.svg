@@ -1,38 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Zhouzheng Xu</title>
-  <desc id="desc">AI Agents, Decision Intelligence, and Generative AI</desc>
+  <desc id="desc">LLM Post-Training, Web Agents, and Game AI</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071426"/>
-      <stop offset="0.48" stop-color="#173B61"/>
-      <stop offset="1" stop-color="#6D2D82"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.58" stop-color="#0b1b2d"/>
+      <stop offset="1" stop-color="#102a3c"/>
     </linearGradient>
-    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#C084FC" stop-opacity="0.34"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
     </linearGradient>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="26"/>
-    </filter>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="1200" height="280" rx="20" fill="url(#background)"/>
-  <circle cx="1035" cy="42" r="130" fill="#A855F7" opacity="0.13" filter="url(#softGlow)"/>
-  <circle cx="130" cy="250" r="150" fill="#0EA5E9" opacity="0.15" filter="url(#softGlow)"/>
-  <path d="M0 222 C235 178 365 270 592 218 C826 164 997 237 1200 185 L1200 280 L0 280 Z" fill="url(#wave)"/>
-  <path d="M0 242 C270 198 416 275 650 233 C865 194 1024 239 1200 215" fill="none" stroke="#E0F2FE" stroke-opacity="0.28" stroke-width="2"/>
-  <g fill="none" stroke="#7DD3FC" stroke-opacity="0.38">
-    <circle cx="102" cy="80" r="17"/>
-    <circle cx="161" cy="112" r="9"/>
-    <path d="M118 89 L153 107 M169 105 L204 78"/>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <circle cx="1035" cy="154" r="220" fill="url(#glow)"/>
+  <rect x="72" y="62" width="54" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <text x="72" y="113" fill="#8bd9d0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Research · Engineering</text>
+  <text x="72" y="178" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700">Zhouzheng Xu</text>
+  <text x="72" y="222" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">LLM Post-Training · Web Agents · Game AI</text>
+
+  <g transform="translate(72 251)" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">
+    <rect width="82" height="32" rx="16" fill="#123a3b" stroke="#2dd4bf" stroke-opacity="0.7"/>
+    <text x="41" y="21" text-anchor="middle" fill="#ccfbf1">SFT + RL</text>
+    <rect x="94" width="92" height="32" rx="16" fill="#122f49" stroke="#60a5fa" stroke-opacity="0.7"/>
+    <text x="140" y="21" text-anchor="middle" fill="#dbeafe">Self-Play</text>
+    <rect x="198" width="72" height="32" rx="16" fill="#1c2b46" stroke="#818cf8" stroke-opacity="0.7"/>
+    <text x="234" y="21" text-anchor="middle" fill="#e0e7ff">MCTS</text>
+    <rect x="282" width="208" height="32" rx="16" fill="#29233e" stroke="#a78bfa" stroke-opacity="0.7"/>
+    <text x="386" y="21" text-anchor="middle" fill="#ede9fe">Imperfect-Information Games</text>
   </g>
-  <text x="600" y="118" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="0.5">Zhouzheng Xu</text>
-  <text x="600" y="165" text-anchor="middle" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="1.2">AI AGENTS · DECISION INTELLIGENCE · GENERATIVE AI</text>
-  <g transform="translate(407 190)" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">
-    <rect width="112" height="31" rx="15.5" fill="#0EA5E9" fill-opacity="0.22" stroke="#7DD3FC" stroke-opacity="0.55"/>
-    <text x="56" y="21" text-anchor="middle" fill="#E0F2FE">Web Agents</text>
-    <rect x="128" width="104" height="31" rx="15.5" fill="#8B5CF6" fill-opacity="0.22" stroke="#C4B5FD" stroke-opacity="0.55"/>
-    <text x="180" y="21" text-anchor="middle" fill="#F3E8FF">Self-Play</text>
-    <rect x="248" width="137" height="31" rx="15.5" fill="#EC4899" fill-opacity="0.18" stroke="#F9A8D4" stroke-opacity="0.5"/>
-    <text x="316.5" y="21" text-anchor="middle" fill="#FCE7F3">Game AI</text>
+
+  <g transform="translate(780 57)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="330" height="205" rx="18" fill="#0b1726" stroke="#4c7898" stroke-opacity="0.72" stroke-width="2"/>
+    <path d="M0 42 H330" stroke="#4c7898" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="26" cy="21" r="5" fill="#fb7185" stroke="none"/>
+    <circle cx="45" cy="21" r="5" fill="#fbbf24" stroke="none"/>
+    <circle cx="64" cy="21" r="5" fill="#34d399" stroke="none"/>
+    <rect x="91" y="12" width="211" height="18" rx="9" fill="#14283b" stroke="none"/>
+
+    <rect x="22" y="63" width="90" height="20" rx="6" fill="#123a3b" stroke="#2dd4bf" stroke-opacity="0.45"/>
+    <path d="M26 106 H138 M26 124 H114 M26 142 H128" stroke="#45647b" stroke-width="5"/>
+
+    <circle cx="224" cy="82" r="12" fill="#163f51" stroke="#60a5fa" stroke-width="2"/>
+    <circle cx="181" cy="133" r="11" fill="#1f3555" stroke="#818cf8" stroke-width="2"/>
+    <circle cx="267" cy="133" r="11" fill="#1f3555" stroke="#818cf8" stroke-width="2"/>
+    <circle cx="153" cy="181" r="9" fill="#2b2749" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="209" cy="181" r="9" fill="#2b2749" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="247" cy="181" r="9" fill="#2b2749" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="287" cy="181" r="9" fill="#2b2749" stroke="#a78bfa" stroke-width="2"/>
+    <path d="M218 94 L186 122 M230 94 L262 122 M177 144 L158 171 M187 144 L204 171 M263 144 L250 171 M273 144 L284 171" stroke="url(#accent)" stroke-width="2.5"/>
+    <path d="M224 82 C197 95 174 106 181 133" stroke="#c4b5fd" stroke-opacity="0.32" stroke-width="10"/>
   </g>
 </svg>

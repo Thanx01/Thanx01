@@ -1,92 +1,106 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Zhouzheng Xu — AI Agents, Decision Intelligence, and Generative AI" width="100%" />
+<img src="./assets/profile-banner.svg" alt="Zhouzheng Xu — LLM Post-Training, Web Agents, and Game AI" width="100%" />
 
 <br />
 
-<img src="https://img.shields.io/badge/Kingsoft%20AI-Web%20Agents%20%26%20Game%20AI-C8102E?style=flat-square" alt="Kingsoft AI" />
-<img src="https://img.shields.io/badge/Research-SFT%20%C2%B7%20Self--Play%20%C2%B7%20MCTS-1D4ED8?style=flat-square" alt="Research focus" />
-<img src="https://img.shields.io/badge/Domain-Imperfect--Information%20Games-6D28D9?style=flat-square" alt="Imperfect-information games" />
-
-</div>
-
----
-
-I build learning and planning systems for **web agents** and **imperfect-information games**, with earlier work in generative media. My research sits at the intersection of post-training, self-play, search, and representation learning.
-
----
-
-### Experience
-
-<table>
-  <tr>
-    <td width="110" valign="top">
-      <a href="https://www.kingsoft.com/"><img src="./assets/logo-kingsoft.png" width="92" alt="Kingsoft" /></a>
-    </td>
-    <td valign="top">
-      <strong>AI Research</strong> &middot; <a href="https://www.kingsoft.com/">Kingsoft AI</a><br />
-      <sub>2025.07 — Present</sub><br />
-      <em>Web Agents &middot; Card-Game AI</em><br />
-      <sub>Researching agent learning and decision-making for web interaction and competitive card games, with SFT, self-play, MCTS, and imperfect-information game methods.</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="110" valign="top">
-      <a href="https://music.migu.cn/"><img src="./assets/logo-migu.png" width="92" alt="Migu Music" /></a>
-    </td>
-    <td valign="top">
-      <strong>AIGC Research</strong> &middot; <a href="https://music.migu.cn/">Migu Music</a><br />
-      <sub>2025.04 — 2025.07</sub><br />
-      <em>Generative Media &middot; Model Training</em><br />
-      <sub>Worked on AIGC research and training pipelines using diffusion models, DeepSpeed, supervised fine-tuning, and reinforcement learning.</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### Research Focus
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Agents-Web%20Agents-0F766E?style=flat-square" alt="Web agents" />
-<img src="https://img.shields.io/badge/Post--Training-SFT%20%C2%B7%20RL-2563EB?style=flat-square" alt="SFT and reinforcement learning" />
-<img src="https://img.shields.io/badge/Game%20AI-Self--Play%20%C2%B7%20MCTS-7C3AED?style=flat-square" alt="Self-play and MCTS" />
-<img src="https://img.shields.io/badge/Generative%20AI-Diffusion-DB2777?style=flat-square" alt="Diffusion models" />
-<img src="https://img.shields.io/badge/Training-DeepSpeed-0891B2?style=flat-square" alt="DeepSpeed" />
-<img src="https://img.shields.io/badge/Research-Representation%20Learning-334155?style=flat-square" alt="Representation learning" />
-
-</div>
-
----
-
-### Publications
-
-| Work | Venue | Focus |
-|---|---|---|
-| **[STMetaT](https://github.com/Thanx01/STMetaT)** · [Paper](https://doi.org/10.1016/j.knosys.2025.114141) | **Knowledge-Based Systems, 2025** | Spatio-temporal meta-learning for trajectory representation |
-| **[SMRL](https://github.com/Thanx01/SMRL)** · [Paper](https://doi.org/10.1109/TNNLS.2026.3679789) | **IEEE TNNLS, 2026** | Spatial meta-learning for unseen geographic entities |
-
----
-
-### Selected Open Source
-
-| Project | What it does |
-|---|---|
-| **[Paper Figure Loom](https://github.com/Thanx01/paper-figure-loom)** | Turns a paper or master figure into an editable PowerPoint with regenerated assets and visual QA. |
-| **[STMetaT](https://github.com/Thanx01/STMetaT)** | Official code and sample data for spatio-temporal trajectory representation learning. |
-| **[SMRL](https://github.com/Thanx01/SMRL)** | Official code for representing unseen geographic entities with spatial meta-learning. |
-
----
-
-### Contact
-
-<div align="center">
-
-<a href="mailto:xuzhouzheng01@gmail.com"><img src="https://img.shields.io/badge/Email-xuzhouzheng01%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:xuzhouzheng01@gmail.com"><img src="https://img.shields.io/badge/Email-xuzhouzheng01%40gmail.com-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/Thanx01"><img src="https://img.shields.io/badge/GitHub-Thanx01-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+
+</div>
+
+Research interests center on **LLM post-training** and **sequential decision-making**, with current work on **WebAgent systems** and **card-game AI**. Core methods include supervised fine-tuning, reinforcement learning, self-play, and Monte Carlo tree search in imperfect-information games; earlier work focused on diffusion-based generative modeling and distributed training.
+
+## Experience
+
+<table>
+  <tr>
+    <td width="116" align="center" valign="middle">
+      <a href="https://www.kingsoft.com/"><img src="./assets/logo-kingsoft.png" width="94" alt="Kingsoft" /></a>
+    </td>
+    <td valign="top">
+      <strong>AI Research · Kingsoft AI</strong><br />
+      <sub>2025.07 — Present</sub><br />
+      WebAgent systems and card-game AI; supervised fine-tuning, reinforcement learning, self-play, Monte Carlo tree search, and imperfect-information games.
+    </td>
+  </tr>
+  <tr>
+    <td width="116" align="center" valign="middle">
+      <a href="https://music.migu.cn/"><img src="./assets/logo-migu.png" width="94" alt="Migu Music" /></a>
+    </td>
+    <td valign="top">
+      <strong>AIGC Research · Migu Music</strong><br />
+      <sub>2025.04 — 2025.07</sub><br />
+      Diffusion-based generative modeling and large-scale training with DeepSpeed, supervised fine-tuning, and reinforcement learning.
+    </td>
+  </tr>
+</table>
+
+## Research & Engineering
+
+<table>
+  <tr>
+    <td><strong>LLM Post-Training</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/SFT-2563EB?style=flat-square" alt="Supervised fine-tuning" />
+      <img src="https://img.shields.io/badge/Reinforcement%20Learning-1D4ED8?style=flat-square" alt="Reinforcement learning" />
+      <img src="https://img.shields.io/badge/DeepSpeed-0F766E?style=flat-square" alt="DeepSpeed" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Agents</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/WebAgent-0F766E?style=flat-square" alt="WebAgent" />
+      <img src="https://img.shields.io/badge/Web%20Navigation-0E7490?style=flat-square" alt="Web navigation" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Game AI</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Self--Play-7C3AED?style=flat-square" alt="Self-play" />
+      <img src="https://img.shields.io/badge/MCTS-6D28D9?style=flat-square" alt="Monte Carlo tree search" />
+      <img src="https://img.shields.io/badge/Imperfect--Information%20Games-5B21B6?style=flat-square" alt="Imperfect-information games" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Generative Modeling</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Diffusion%20Models-DB2777?style=flat-square" alt="Diffusion models" />
+      <img src="https://img.shields.io/badge/AIGC-BE185D?style=flat-square" alt="AIGC" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Research Code</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/DGL-4B5563?style=flat-square" alt="DGL" />
+    </td>
+  </tr>
+</table>
+
+## Publications
+
+| Publication | Venue | Research topic |
+|---|---|---|
+| **[SMRL](https://github.com/Thanx01/SMRL)** · [Paper](https://doi.org/10.1109/TNNLS.2026.3679789) | **IEEE Transactions on Neural Networks and Learning Systems, 2026** | Spatial meta-learning for unseen geographic entities |
+| **[STMetaT](https://github.com/Thanx01/STMetaT)** · [Paper](https://doi.org/10.1016/j.knosys.2025.114141) | **Knowledge-Based Systems, 2025** | Spatio-temporal meta-learning for trajectory representation |
+
+## Open Source
+
+| Project | Description |
+|---|---|
+| **[Paper Figure Skill](https://github.com/Thanx01/paper-figure-skill)** | Reconstructs paper figures as editable PowerPoint diagrams with reusable assets and visual verification. |
+| **[SMRL](https://github.com/Thanx01/SMRL)** | PyTorch/DGL implementation of spatial meta-learning for unseen geographic entities. |
+| **[STMetaT](https://github.com/Thanx01/STMetaT)** | Spatio-temporal meta-learning for multi-view trajectory representations. |
+
+## GitHub Activity
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thanx01&theme=github" width="100%" alt="Thanx01 contribution activity" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Thanx01&theme=github" width="49%" alt="Thanx01 GitHub statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thanx01&theme=github" width="49%" alt="Thanx01 languages by commit" />
 
 </div>
