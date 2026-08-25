@@ -1,0 +1,19 @@
+README.md
+  s_50ee94a1548c8d::t_24ac88b015830d 93-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.7",
+  "base_commit_sha": "201325420949d9f20896891cbdd8317836b46cbf",
+  "prompts": {},
+  "sessions": {
+    "s_50ee94a1548c8d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd145-e9dc-7470-8c91-c6df968f1ef9",
+        "model": "unknown"
+      },
+      "human_author": "xuzhouzheng <xuzhouzheng@kingsoft.com>"
+    }
+  }
+}
