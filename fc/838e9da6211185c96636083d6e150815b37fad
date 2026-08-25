@@ -1,0 +1,23 @@
+README.md
+  s_81fe7f1f1a7232::t_b80b782f838296 1-92
+assets/README.md
+  s_81fe7f1f1a7232::t_543505336b6ba0 1-7
+assets/profile-banner.svg
+  s_81fe7f1f1a7232::t_edf2746ef87392 1-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.7",
+  "base_commit_sha": "fc838e9da6211185c96636083d6e150815b37fad",
+  "prompts": {},
+  "sessions": {
+    "s_81fe7f1f1a7232": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "s_81fe7f1f1a7232",
+        "model": "unknown"
+      },
+      "human_author": "xuzhouzheng <xuzhouzheng@kingsoft.com>"
+    }
+  }
+}
