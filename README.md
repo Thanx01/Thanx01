@@ -90,6 +90,8 @@ Research interests center on **LLM post-training** and **sequential decision-mak
 
 | Project | Description |
 |---|---|
+| **[CardKS](https://github.com/Calix-L/CardKS)** · Contributor | Residual key-structure modeling for long-horizon decisions across GuanDan, DouDizhu, and Gin Rummy. |
+| **[DanKS](https://github.com/Calix-L/DanKS)** · Contributor | PPO self-play GuanDan agent with structure-aware retrieval and candidate-conditioned actor-critic learning. |
 | **[Paper Figure Skill](https://github.com/Thanx01/paper-figure-skill)** | Reconstructs paper figures as editable PowerPoint diagrams with reusable assets and visual verification. |
 | **[SMRL](https://github.com/Thanx01/SMRL)** | PyTorch/DGL implementation of spatial meta-learning for unseen geographic entities. |
 | **[STMetaT](https://github.com/Thanx01/STMetaT)** | Spatio-temporal meta-learning for multi-view trajectory representations. |
