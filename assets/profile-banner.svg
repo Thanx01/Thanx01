@@ -1,28 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="b-title b-desc">
-  <title id="b-title">Zhouzheng Xu</title>
-  <desc id="b-desc">Zhouzheng Xu. LLM Post-Training · Web Agents · Game AI. Research keywords: SFT + RL, Self-Play, MCTS, Imperfect-Information Games. Editorial cover on misty gray-green with left-aligned type and a still life of three overlapping rounded cards cropped at the right edge.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="350" viewBox="0 0 1040 350" role="img" aria-labelledby="name description">
+  <title id="name">Zhouzheng Xu — Journal cover</title>
+  <desc id="description">LLM Post-Training · Web Agents · Game AI. Research keywords include SFT + RL, Self-Play, MCTS, and Imperfect-Information Games. An indigo and ivory academic cover with centered serif typography and a research index.</desc>
   <defs>
-    <clipPath id="b-canvas">
-      <rect width="1000" height="360" rx="20"/>
-    </clipPath>
+    <clipPath id="canvas"><rect width="1040" height="350" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#b-canvas)">
-    <rect width="1000" height="360" fill="#e6ebe7"/>
-    <rect x="-115" y="-160" width="230" height="320" rx="22" transform="translate(955 245) rotate(-14)" fill="#2b463b"/>
-    <rect x="-130" y="-100" width="260" height="200" rx="22" transform="translate(815 345) rotate(12)" fill="#a7bbae"/>
-    <g transform="translate(895 312) rotate(5)">
-      <rect x="-78" y="-108" width="170" height="230" rx="18" fill="#1b2420" opacity="0.16"/>
-      <rect x="-85" y="-115" width="170" height="230" rx="18" fill="#f7f8f4" stroke="#1b2420" stroke-width="1.5"/>
-      <rect x="-71" y="-101" width="142" height="202" rx="10" fill="none" stroke="#1b2420" stroke-opacity="0.35"/>
-    </g>
+  <g clip-path="url(#canvas)">
+<rect width="1040" height="350" fill="#223d89"/>
+<rect x="28" y="23" width="984" height="304" rx="4" fill="#faf6e9"/>
+<rect x="41" y="36" width="958" height="278" rx="1" fill="none" stroke="#a09a7e" stroke-width="1.2"/>
+<path d="M65 68H975 M65 219H975" stroke="#233d81" stroke-width="2"/>
+<g text-anchor="middle">
+  <text x="520" y="153" font-family="Georgia, 'Times New Roman', serif" font-size="91" letter-spacing="-4" fill="#182e66">Zhouzheng Xu</text>
+  <text x="520" y="197" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-style="italic" letter-spacing="-.5" fill="#283b69">LLM Post-Training · Web Agents · Game AI</text>
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="650" fill="#22366c">
+    <text x="158" y="273">SFT + RL</text>
+    <text x="346" y="273">Self-Play</text>
+    <text x="502" y="273">MCTS</text>
   </g>
-  <rect x="0.5" y="0.5" width="999" height="359" rx="19.5" fill="none" stroke="#d2dad4"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
-    <text x="64" y="118" font-size="86" font-weight="800" letter-spacing="-2.5" fill="#141b17">Zhouzheng Xu</text>
-    <text x="66" y="172" font-size="34" font-weight="500" fill="#26332c">LLM Post-Training · Web Agents · Game AI</text>
-    <rect x="66" y="200" width="40" height="3" fill="#141b17"/>
-    <rect x="114" y="201" width="420" height="1" fill="#b4c2b9"/>
-    <text x="66" y="250" font-size="31" font-weight="500" letter-spacing="0.2" fill="#3a4a41">SFT + RL<tspan fill="#7a9386"> · </tspan>Self-Play<tspan fill="#7a9386"> · </tspan>MCTS</text>
-    <text x="66" y="294" font-size="31" font-weight="500" letter-spacing="0.2" fill="#3a4a41">Imperfect-Information Games</text>
+  <path d="M250 244V281 M437 244V281 M565 244V281" stroke="#999caa" stroke-width="1.2"/>
+  <text x="775" y="273" font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" letter-spacing="-.65" font-weight="650" fill="#22366c">Imperfect-Information Games</text>
+</g>
   </g>
 </svg>
